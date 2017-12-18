@@ -3,8 +3,9 @@
 namespace Dawen\Bundle\ApiDocPropertyBundle\Tests\Component\Annonation;
 
 use Dawen\Bundle\ApiDocPropertyBundle\Component\Annotation\ApiDocProperty;
+use PHPUnit\Framework\TestCase;
 
-class ApiDocPropertyTest extends \PHPUnit_Framework_TestCase
+class ApiDocPropertyTest extends TestCase
 {
     public function testConstructorWithSimpleTypeAndNoOtherProperties()
     {

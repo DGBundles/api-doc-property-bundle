@@ -4,8 +4,9 @@ namespace Dawen\Bundle\ApiDocPropertyBundle\Tests\Component\Parser;
 
 use Dawen\Bundle\ApiDocPropertyBundle\Component\Annotation\ApiDocProperty;
 use Dawen\Bundle\ApiDocPropertyBundle\Component\Parser\ApiDocPropertyParser;
+use PHPUnit\Framework\TestCase;
 
-class ApiDocPropertyParserTest extends \PHPUnit_Framework_TestCase
+class ApiDocPropertyParserTest extends TestCase
 {
     /**
      * @var \PHPUnit_Framework_MockObject_MockObject
